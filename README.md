@@ -1,6 +1,12 @@
 # twilioForDummies
 Using Twilio for messagien with python
 
+# Project Imports
+ pip install twilio
+ pip install flask
+ 
+
+
 WhatsApp Bot using Twilio and Python (Part-1) | Setting up Twilio Sandbox for WhatsApp
 	https://www.youtube.com/watch?v=BKK5NMDC0fk&t=514s
 	
@@ -28,18 +34,15 @@ Configurar el sanBox -> 14:00
 Flask app to respond to whatsAPP messages
 	https://www.youtube.com/watch?v=EeUdel2AJ5g
 	
-	pip install flask
-	pip install twilio
-	
 	ahora vienen una serie de pasos que ya sabemos y manejamos como:
 		python simplebot.py
-		ngrok http 5000
+		https://ngrok.com/ -> ngrok http 5000
 	
 
 	configamos la url call en Twilio account.
 		Messagin -> Settings -> WhatsApp sanBox settings
 		
-		WHEN A MESSAGE COMES IN make http post to: http://90aa1c6a675f.ngrok.io/sms
+		WHEN A MESSAGE COMES IN make http post to: http://90aa1c6a675f.ngrok.io/wasap
 			originalmente estaba esta: https://timberwolf-mastiff-9776.twil.io/demo-reply
 	
 Deploying Flask App on Heroku

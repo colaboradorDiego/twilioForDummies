@@ -1,5 +1,5 @@
 #my Excludes
-twilio.ini
+data/
 
 
 # Byte-compiled / optimized / DLL files
