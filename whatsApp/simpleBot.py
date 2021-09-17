@@ -15,13 +15,15 @@ def sms_reply():
     # Fetch the message
     msg = request.form.get('Body')
     remitente = request.form.get('From')
+
+    # todo los siguientes dos no me funcionan
     fecha = request.form.get('date_created')
     msgID = request.form.get('sid')
 
 
     # Create reply
     resp = MessagingResponse()
-    respuesta = "Hola {telefono}, como estas! Tu mensage es: {} y lo mandaste el: {}. El id del msg es: {}".format(remitente,msg,fecha,msgID)
+    respuesta = "Hola {}, como estas! Tu mensage es: {} y lo mandaste el: {}. El id del msg es: {}".format(remitente, msg, fecha, msgID)
     resp.message(respuesta)
 
     return str(resp)
