@@ -2,11 +2,16 @@
 Using Twilio for messagien with python
 
 # Project Imports
- pip install twilio
- pip install flask
- 
+ pip install -r requirements.txt
 
+# Twilio
+	https://www.twilio.com/ahoy
+	
+	Tips Rapidos:
+		sandbox es una plataforma gratis para desarrollo.
+		para hacer testing de tus apps con tu telefono debes primero unirlo al sandbox con join trace-badly
 
+# Arrancar por aca
 WhatsApp Bot using Twilio and Python (Part-1) | Setting up Twilio Sandbox for WhatsApp
 	https://www.youtube.com/watch?v=BKK5NMDC0fk&t=514s
 	
@@ -47,4 +52,9 @@ Flask app to respond to whatsAPP messages
 	
 Deploying Flask App on Heroku
 	https://www.youtube.com/watch?v=4ho21Wppf30
+	
+
+# De este capo groso aprendi mucho
+	https://www.twilio.com/blog/automatically-send-birthday-wishes-python-flask-whatsapp
+	https://github.com/ashutosh1919
 	
